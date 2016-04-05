@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+@media all and (min-width: 960px) {
+body {
+    max-width: 960px;
+    margin: auto;
+}
+
+.nav {
+    width: 100%;
+    background-color: lightblue;
+    height: 35px;
+    text-align: right;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 10px ;
+    position: relative;
+    top: 8px;
+}
+
+.nav a:hover {
+    background-color: blue;
+}
+
+.content>img {
+    max-width: 400px;
+    float: left;
+    margin: 10px;
+}
+
+.gallery {
+    text-align: center;
+}
+
+}

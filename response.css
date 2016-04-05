@@ -1,0 +1,26 @@
+
+@media all and (max-width: 959px){
+
+.nav {
+    margin-bottom: 15px;
+}
+
+.nav span a {
+    display: block;
+    text-align: center;
+    background-color: lightblue;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    border: 1px solid white;
+    padding: 15px 0;
+}
+
+.nav span a:hover {
+    background: blue;
+}
+
+.content {
+    text-align:center;
+}
+}
